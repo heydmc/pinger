@@ -15,7 +15,7 @@ def home():
 def ping_bot():
     urls = [
         "https://telegram-bot-6uyz.onrender.com",     # Existing bot
-        "https://your-new-bot-url.onrender.com",      # 🔁 Add new bot URL here
+        "https://chess-membership-bot.onrender.com",      # 🔁 Add new bot URL here
     ]
     
     while True:
