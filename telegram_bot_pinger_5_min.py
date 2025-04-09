@@ -26,7 +26,7 @@ def ping_bot():
                 print(f"Status from {url}: {response.status_code}")
             except Exception as e:
                 print(f"Error pinging {url}: {e}")
-        time.sleep(300)  # 5 minutes
+        time.sleep(60)  # 1 minutes
 
 if __name__ == "__main__":
     threading.Thread(target=ping_bot, daemon=True).start()
